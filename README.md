@@ -1,54 +1,70 @@
-# Hemisphere_tracker
-  Hemisphere Tracker is a React-based web application that allows users to track the position of the sun in different hemispheres. It provides real-time information about the sun's azimuth and elevation angles for any given location on Earth.
-  This project was developed as part of a learning exercise to explore the capabilities of React and demonstrate the integration of various APIs to fetch and display data. It can be used as a starting point for building more complex applications that require real-time sun position tracking.
-  
-## Features
-Real-time tracking of the sun's position in different hemispheres.
-User-friendly interface with interactive map-based controls.
-Displays the sun's azimuth and elevation angles for a selected location.
-Adjustable date and time settings to view the sun's position at different moments.
-Supports both Northern and Southern hemispheres.
+# Getting Started with Create React App
 
-## Installation
-To install and run the Hemisphere Tracker locally on your machine, follow these steps:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1)Clone the repository to your local machine:
-git clone https://github.com/Sarthakkul2311/hemisphere_tracker.git
+## Available Scripts
 
-2)Navigate to the project directory:
-cd hemisphere-tracker
+In the project directory, you can run:
 
-3)Install the project dependencies using npm or Yarn:
-npm install
-OR
-yarn install
+### `npm start`
 
-## Usage
-To start the development server and run the Hemisphere Tracker locally, use the following command:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-npm start
-OR
-yarn start
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-This will start the development server and open the application in your default web browser. You can interact with the interface to select a location and adjust the date and time settings to track the sun's position.
+### `npm test`
 
-## Dependencies
-The project has the following dependencies:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1)React
-2)React DOM
-3)React Leaflet (for interactive maps)
-4)Axios (for making API requests)
+### `npm run build`
 
-These dependencies are automatically installed when following the installation instructions mentioned earlier.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Contributing
-Contributions to this project are welcome! If you want to contribute, please follow these guidelines:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1)Fork the repository.
-2)Create a new branch for your feature or bug fix.
-3)Make your changes and commit them with clear messages.
-4)Push your changes to your forked repository.
-5)Submit a pull request to the main repository.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Please ensure that your code adheres to the project's coding conventions and includes appropriate tests.
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
